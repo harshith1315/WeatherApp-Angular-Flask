@@ -1,27 +1,71 @@
-# Weatherapp
+# Weather App (Angular + Flask)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## Overview
 
-## Development server
+This project is a simple weather application built using Angular for the frontend and Flask for the backend. It allows users to search for weather information by location.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Search for weather information by location.
+- Display current weather conditions.
+- Responsive design for a seamless user experience on different devices.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- Angular: A popular frontend framework for building single-page web applications.
+- Flask: A lightweight and flexible microframework for building web applications with Python.
+- OpenWeatherMap API: Used to fetch weather data based on user input.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+To run this project locally, follow these steps:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone this repository to your local machine:
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/harshith1315/WeatherApp-Angular-Flask.git
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Navigate to the project directory:
 
-## Further help
+   ```bash
+   cd WeatherApp-Angular-Flask
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Install the required dependencies for the frontend (Angular) and backend (Flask):
+
+   ```bash
+   cd weatherapp
+   npm install
+   ```
+
+4. Start the Angular development server:
+
+   ```bash
+   cd weatherapp
+   ng serve
+   ```
+
+5. Start the Flask server:
+
+   ```bash
+   //new terminal
+   python app.py
+   ```
+
+6. Open your web browser and go to [http://localhost:4200](http://localhost:4200) to view the application.
+
+## Usage
+
+- Enter a location in the search input field and press the "Submit" button to fetch weather information for that location.
+- The weather information will be displayed on the screen.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
